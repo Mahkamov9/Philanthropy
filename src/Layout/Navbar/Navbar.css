@@ -1,0 +1,36 @@
+.navbar{
+    padding: 50px 0px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-box{
+    display: flex;
+}
+
+.nav-link{
+    margin: 10px;
+    padding: 10px;
+    color: #090909;
+}
+
+.nav-item-button{
+    display: flex;
+    
+}
+
+.nav-btn{
+    border: 1px solid#FF9C08;
+    background: #FF9C08;
+    padding: 10px 35px;
+    color: #090909;
+    border-radius: 10px;
+}
+
+.nav-btn-box{
+    margin: 0px 10px;
+}
+
