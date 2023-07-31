@@ -10,17 +10,22 @@ export default function Navbar() {
         <div className="navbar">
             <div className="container">
                 <div className="nav-list">
-                    <div className="nav-item"><img src={Logo} alt="" /></div>
-                    <div className="nav-item">
-                        <ul className="link-box">
-                            <li><a className="nav-link" href="#">Home</a></li>
-                            <li><a className="nav-link" href="#">About</a></li>
-                            <li><a className="nav-link" href="#">Pages</a></li>
-                        </ul>
+                    <div className="nav-item box">
+                        <div>
+                            <img src={Logo} alt="Logo" />
+                        </div>
+
+                        <div className='asdasd' >
+                            <a className="nav-link" href="#">Home</a>
+                            <a className="nav-link" href="#">About</a>
+                            <a className="nav-link" href="#">Pages</a>
+                        </div>
+                    
                     </div>
-                    <div className="nav-item nav-item-button" > 
-                        <div className="nav-btn-box" ><a href="#"><img src={Basket} alt="" /></a></div>
-                        <div className="nav-btn-box" ><a className="nav-btn" href="#">Donate</a></div>
+                    
+                    <div className="nav-item" > 
+                        <a  className="nav-basket" href="#"><img className='navBasImg' src={Basket} alt="" /></a>
+                        <a className="nav-btn" href="#">Donate now</a>
                     </div>
                 </div>
             </div>

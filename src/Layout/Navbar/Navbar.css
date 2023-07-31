@@ -1,36 +1,60 @@
 .navbar{
-    padding: 50px 0px;
+    /* padding: 50px 0px; */
+    border-bottom: 1px solid #0909091a ;
+    /* padding-bottom: 12px; */
 }
 
 .nav-list {
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .link-box{
     display: flex;
 }
 
+.asdasd{
+    margin-left: 40px;
+}
+
 .nav-link{
     margin: 10px;
-    padding: 10px;
     color: #090909;
 }
 
-.nav-item-button{
+.nav-item{
     display: flex;
-    
 }
+
 
 .nav-btn{
     border: 1px solid#FF9C08;
     background: #FF9C08;
-    padding: 10px 35px;
+    padding: 10px 035px;
     color: #090909;
     border-radius: 10px;
+    display: inline-block;
+}
+
+.nav-basket{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.navBasImg{
+    margin-right: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 .nav-btn-box{
     margin: 0px 10px;
 }
 
+
+.box{
+    display: flex;
+    align-items: center;
+}
