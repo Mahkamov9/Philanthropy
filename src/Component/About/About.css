@@ -1,4 +1,4 @@
-.about{
+.about {
     background-color: #FEF9F2;
 }
 
@@ -16,9 +16,10 @@
 }
 
 
-.about-box{
+.about-box {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 150px;
 }
 
 .aboutrg-subtext {
@@ -43,4 +44,83 @@
     /* 166.7% */
     width: 500px;
     margin-top: 50px;
+}
+
+.about-img-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-img1 {
+    margin-top: 40px;
+    width: 596px;
+    height: 530px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.about-img2 {
+    margin-top: 20px;
+    width: 596px;
+    height: 391px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.about-img3 {
+    margin-top: 90px;
+    width: 596px;
+    height: 749px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+
+.about-btn-box {
+    display: flex;
+}
+
+.about-right-subtext {
+    margin-top: 40px;
+    padding-left: 30px;
+    color: #6E6E6E;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.006px;
+    /* 166.7% */
+    width: 560px;
+}
+
+
+.about-right-text {
+    color: #090909;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.998px;
+    /* 111.1% */
+    width: 424px;
+    margin-left: 60px;
+}
+
+.about-right-text:nth-child(1) {
+    margin-top: 20px;
+}
+
+.about-right-text::after {
+    display: flex;
+    content: '';
+    background-image: url("../../Assets/svg/Stiker.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    widows: 20px;
+    height: 20px;
+    transform: translate(-7%, -95%);
+
 }

@@ -1,0 +1,111 @@
+.helped {
+    height: 864px;
+    flex-shrink: 0;
+    background-color: #FFD4A4;
+}
+
+.helped-text-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.helped-subtext {
+    padding-top: 200px;
+    color: #090909;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 110% */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.helped-text {
+    margin-top: 50px;
+    color: #090909;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58.002px;
+    /* 138.1% */
+    width: 752px;
+}
+
+
+.helped-btn-box{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.helped-btn {
+    width: 180px;
+    height: 71px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #090909;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+.helped-btn:nth-child(2) {
+    width: 180px;
+    height: 71px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.helped-video {
+    width: 1220px;
+    height: 688px;
+    flex-shrink: 0;
+    border-radius: 57px;
+    background: rgba(0, 0, 0, 0.40);
+    margin-top: 60px;
+}
+
+.helped-box{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #DAD1CA;
+    padding-bottom: 100px;
+}
+
+.helped-text1 {
+    margin-top: 50px;
+    color: #090909;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34.008px;
+    /* 141.7% */
+}
+
+.helped-text2 {
+    padding-top: 20px;
+    color: #6E6E6E;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.006px;
+    /* 166.7% */
+    width: 570px;
+}

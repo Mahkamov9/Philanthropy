@@ -1,0 +1,154 @@
+.testimon {
+    margin-top: 418px;
+    height: 1287px;
+    flex-shrink: 0;
+    background: #FEF9F2;
+}
+
+.testimon-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 450px;
+}
+
+
+.testimon-card {
+    position: relative;
+    transform: translate(60% , -80%);
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 388px;
+    height: 298px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #F0ECE8;
+    background: #FFF;
+    box-shadow: 0px 2px 12px 0px rgba(43, 43, 43, 0.06);
+}
+
+.card-subtext {
+    padding-top: 50px;
+    text-align: justify;
+    width: 304px;
+    color: #6E6E6E;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.006px;
+    /* 166.7% */
+}
+
+.testimon-card-text {
+    padding-top: 20px;
+    text-align: justify;
+    width: 122px;
+    color: #090909;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.998px;
+    /* 111.1% */
+}
+
+.card-title {
+    padding-top: 20px;
+    text-align: justify;
+    width: 185px;
+    color: #989898;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.998px;
+    /* 117.635% */
+}   
+
+
+
+
+
+
+
+
+.testimon-left {
+    padding-top: 60px;
+}
+
+.testimon-subtext {
+    color: #FF9C08;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    /* 110% */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    width: 161px;
+}
+
+.testimon-text {
+    padding-top: 20px;
+    width: 435px;
+    color: #090909;
+    font-family: Roboto;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58.002px;
+    /* 138.1% */
+}
+
+.testimon-title {
+    padding-top: 50px;
+    width: 509px;
+    color: #6E6E6E;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.006px;
+    /* 176.506% */
+}
+
+.stiker-box {
+    padding-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.stiker-text {
+    color: #090909;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    /* 110% */
+    width: 481px;
+}
+
+.testimon-bnt {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 71px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FF9C08;
+    color: #090909;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.998px;
+    /* 111.1% */
+}
